@@ -27,36 +27,6 @@ Download the raw datasets [Market-1501](http://www.liangzheng.org/Project/projec
 [3DPeS](https://aimagelab.ing.unimore.it/imagelab/page.asp?IdPage=16), 
 and then unzip them under the directory like
 ```
-UCR/examples/data
-├── market1501
-│   ├── bounding_box_train/
-│   ├── bounding_box_test/
-│   └── query/
-├── cuhk-sysu
-│   └── CUHK-SYSU
-│       ├── Image/
-│       └── annotation/
-├── msmt17
-│   └── MSMT17_V2
-├── viper
-│   └── VIPeR
-├── prid2011
-│   └── prid_2011
-├── grid
-│   └── underground_reid
-├── ilids
-│   └── i-LIDS_Pedestrian
-├── cuhk01
-│   └── campus
-├── cuhk02
-│   └── Dataset
-├── sensereid
-│   └── SenseReID
-├── cuhk03
-│   └── cuhk03_release
-└── 3dpes
-    └── 3DPeS
-```
 
 
 ## Train:
