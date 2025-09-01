@@ -1,6 +1,3 @@
-# UCR
-
-Implementation of paper ["Unsupervised Lifelong Person Re-identification via Contrastive Rehearsal"](https://arxiv.org/pdf/2203.06468.pdf).
 
 ## Installation
 
@@ -70,10 +67,7 @@ The results reported in the paper were obtained with **4 GPUs**.
 sh unsupervised_lifelong.sh
 ```
 
-#### Supervised lifelong training
-```shell
-sh supervised_lifelong.sh
-```
+
 
 ## Test:
 ```shell
