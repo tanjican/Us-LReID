@@ -55,21 +55,17 @@ Modify the dataset paths in the corresponding configuration files if necessary.
 ## Training
 
 ```bash
-python train.py --config configs/ahn.yml --order order1
+sh unsupervised_lifelong.sh
 ```
 
-For another training order:
 
-```bash
-python train.py --config configs/ahn.yml --order order2
-```
 
 ---
 
 ## Evaluation
 
 ```bash
-python test.py --config configs/ahn.yml --resume path/to/checkpoint.pth
+python examples/test.py --init examples/logs/step3.pth.tar
 ```
 
 ---
